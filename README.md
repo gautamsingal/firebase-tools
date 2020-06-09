@@ -200,7 +200,7 @@ client
   });
 ```
 
-Another example of using Firebase CLI as a Node Module can be using use() for getting the current firebase projectId.
+Another example of using Firebase CLI as a Node Module can be using `use()` for setting the firebase projectId.
 
 Difference between `list()` and `use()` is that list is used to list all the projects associated with the logged in account whereas
 use is called to set an active Firebase Project.
